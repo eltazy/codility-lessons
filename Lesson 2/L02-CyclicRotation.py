@@ -9,7 +9,7 @@
     i.e. all naturals K having the same reminder modulo len(A) give the same output
 
     Our solution is then obtained by:
-        * splitting the array at its K-th [K%len(A)-th] element [3, 8] and [9, 7, 6]
+        * splitting the array at its K-th [K%len(A)-th] element [3, 8] and [9, 7, 6] then
         * merging those arrays in reverse [9, 7, 6, 3, 8]
 
 '''
