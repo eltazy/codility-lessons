@@ -4,12 +4,10 @@
     University of Eastern Africa Baraton, Kenya
 
     Problem link: https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
-
-    My solution is then obtained by:
-        *
-
 '''
+import math
 
 
 def solution(X, Y, D):
-    return 0
+    return math.ceil((Y - X) / D)
+
