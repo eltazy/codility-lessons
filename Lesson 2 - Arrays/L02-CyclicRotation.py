@@ -1,14 +1,19 @@
 '''
-    Link: https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
+    Solution by Michel K. Buhendwa II
+    BSc. Software Engineering
+    University of Eastern Africa Baraton, Kenya
+
+    Problem link: https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
     For example, given
 
     A = [3, 8, 9, 7, 6]
     K = 3
+
     No matter the value of K there is a finite set of outputs possible
     After rotating len(A) times the output is the same as the len(A) first times
     i.e. all naturals K having the same reminder modulo len(A) give the same output
 
-    Our solution is then obtained by:
+    My solution is then obtained by:
         * splitting the array at its K-th [K%len(A)-th] element [3, 8] and [9, 7, 6] then
         * merging those arrays in reverse [9, 7, 6, 3, 8]
 
